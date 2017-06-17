@@ -24,10 +24,9 @@ The pinout of this circuit is as follows
 BackLgt    |          |         7|
 
 
-This little program uses the wiringpi library to drive the i/o pins
-
-
 ## Prerequisites
+
+This little program uses the wiringpi library to drive the i/o pins
 
 First install the wiringPi library if not already installed.
 Instructions can be found here:
