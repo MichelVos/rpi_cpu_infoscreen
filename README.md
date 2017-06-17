@@ -11,6 +11,7 @@ This product basically contains a nokia 5110 screen with a pcm8544 controller.
 ## The hardware
 
 The pinout of this circuit is as follows
+
 | Function |    PIN   | WiringPI |
 |----------|----------|----------|
 |CLK       |        11|         0|
