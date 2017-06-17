@@ -7,8 +7,8 @@ do
 	IPADDRESS=`ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1'`
 	DISKUSE=`df -m / | tail -1 | awk '{ print $5; }'`
 	TEMPERATURE=`/opt/vc/bin/vcgencmd measure_temp`
-	TIME=`date +%H:%M`
-	./test_bcm8544 "Up: $UPTIME" "RAM $FREERAM" $IPADDRESS "Disk use $DISKUSE" $TEMPERATURE $TIME
+	TIME=`date "+%Y-%m-%d %H:%M"`
+	./test_bcm8544 $TIME $TEMPERATURE "RAM $FREERAM" "Disk use $DISKUSE" "Up: $UPTIME" $IPADDRESS
 	sleep 20
 done
 
