@@ -37,8 +37,11 @@ or here
 
 http://wiringpi.com/download-and-install/
 
-If not already install install build-essential with
-sudo apt-get update && sudo apt-get install build-essential
+If not already installed install build-essential with
+```
+sudo apt-get update
+sudo apt-get install build-essential
+```
 
 Now I would say you should doenload this source code but as you are reading that I 
 figure that this stuff is already on your harddisk.
