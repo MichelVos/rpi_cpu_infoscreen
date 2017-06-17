@@ -64,6 +64,6 @@ test_bcm8544 hello world
 on the command line
 
 There is also a little script called update that fetches some more or less
-usefull stuff to put on you shiny new display.
+usefull stuff to put on your shiny new display.
 
 Enjoy!
