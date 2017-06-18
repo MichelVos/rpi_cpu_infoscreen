@@ -3,9 +3,8 @@ A small program to drive the bcm8544 cpu info screen on a raspberry pi
 
 
 ## Introduction
-This is a simple small program to drive a product calle the 
-RPi 1.6" CPUInfo Screen
-This product basically contains a nokia 5110 screen with a pcm8544 controller.
+This is a simple small program to drive a product called the RPi 1.6" CPUInfo Screen
+This product basically contains a Nokia 5110 screen with a pcm8544 controller.
 
 
 ## The hardware
@@ -21,13 +20,10 @@ The pinout of this circuit is as follows
 |Vcc       |         1|          |
 |Gnd       |         6|          |
 |Rst       |        16|         4|
-BackLgt    |          |         7|
+|BackLgt   |         7|         7|
 
 
 ## Prerequisites
-
-This little program uses the wiringpi library to drive the i/o pins
-
 First install the wiringPi library if not already installed.
 Instructions can be found here:
 
@@ -49,8 +45,10 @@ figure that this stuff is already on your harddisk.
 ## How to build
 
 enter the directory where you installed this source
-Enter the src directory and type make
-
+Enter the src directory and type
+```
+make
+```
 After a little while you should have a program called 
 
 test_bcm8544
@@ -58,12 +56,11 @@ test_bcm8544
 ## How to use
 
 Now you can enter
-
+```
 test_bcm8544 hello world
-
+```
 on the command line
 
-There is also a little script called update that fetches some more or less
-usefull stuff to put on your shiny new display.
+There is also a little script called update that fetches some more or less usefull stuff to put on your shiny new display.
 
 Enjoy!
