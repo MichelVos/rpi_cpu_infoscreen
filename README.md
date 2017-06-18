@@ -38,9 +38,10 @@ If not already installed install build-essential with
 sudo apt-get update
 sudo apt-get install build-essential
 ```
-
-Now I would say you should doenload this source code but as you are reading that I 
-figure that this stuff is already on your harddisk.
+git clone this code
+```
+git clone https://github.com/MichelVos/rpi_cpu_infoscreen.git
+```
 
 ## How to build
 
