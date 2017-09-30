@@ -1,0 +1,10 @@
+#!/bin/bash
+
+COUNT=1
+while true
+do
+	./test_bcm8544 $COUNT "  $COUNT" "    $COUNT" "      $COUNT" "        $COUNT" "          $COUNT"
+	COUNT=$((COUNT+1))
+	sleep 1
+done
+
