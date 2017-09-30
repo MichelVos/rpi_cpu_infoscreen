@@ -26,7 +26,6 @@ void set_data(int value) {
 
 void set_reset(int value) {
 	digitalWrite(RST, value ? 1 : 0);
-
 }
 
 void clock_out_byte(unsigned char byte) {
@@ -81,7 +80,9 @@ void low_initialise() {
 	pinMode(DIN, OUTPUT);
 	pinMode(CLK, OUTPUT);
 	set_reset(0);
+	usleep(50*1000);
 	set_reset(1);
+	usleep(50*1000);
 	send_command_byte(0x21);	  // LCD Extended Commands.
 	send_command_byte(0xB1);	  // Set LCD Vop (Contrast).
 	send_command_byte(0x04);	  // Set Temp coefficent. //0x04

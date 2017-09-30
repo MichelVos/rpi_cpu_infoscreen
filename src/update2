@@ -1,4 +1,5 @@
 #!/bin/bash
+#Test script to see if the update works all the time
 
 COUNT=1
 while true

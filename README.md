@@ -1,10 +1,10 @@
 # rpi_cpu_infoscreen
-A small program to drive the bcm8544 cpu info screen on a raspberry pi
+A small program to drive the pcd8544 cpu info screen on a raspberry pi
 
 
 ## Introduction
 This is a simple small program to drive a product called the RPi 1.6" CPUInfo Screen
-This product basically contains a Nokia 5110 screen with a pcm8544 controller.
+This product basically contains a Nokia 5110 screen with a pcd8544 controller.
 
 
 ## The hardware
