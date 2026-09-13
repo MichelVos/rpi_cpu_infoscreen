@@ -1,10 +1,10 @@
 # rpi_cpu_infoscreen
-A small program to drive the pcd8544 cpu info screen on a raspberry pi
+A small program to drive the PCD8544 CPU info screen on a Raspberry Pi
 
 
 ## Introduction
-This is a simple small program to drive a product called the RPi 1.6" CPUInfo Screen
-This product basically contains a Nokia 5110 screen with a pcd8544 controller.
+This is a simple, small program to drive a product called the RPi 1.6" CPUInfo Screen
+This product basically contains a Nokia 5110 screen with a PCD8544 controller.
 
 
 ## The hardware
@@ -24,7 +24,7 @@ The pinout of this circuit is as follows
 
 
 ## Prerequisites
-First install the wiringPi library if not already installed.
+First, install the wiringPi library if it is not already installed.
 Instructions can be found here:
 
 http://raspberry-python.blogspot.nl/2012/09/getting-wiringpi-on-pi.html
@@ -33,7 +33,7 @@ or here
 
 http://wiringpi.com/download-and-install/
 
-If not already installed install build-essential with
+If not already installed, install build-essential with
 ```
 sudo apt-get update
 sudo apt-get install build-essential
@@ -45,12 +45,12 @@ git clone https://github.com/MichelVos/rpi_cpu_infoscreen.git
 
 ## How to build
 
-enter the directory where you installed this source
+Enter the directory where you installed this source
 Enter the src directory and type
 ```
 make
 ```
-After a little while you should have a program called 
+After a little while, you should have a program called 
 
 test_bcm8544
 
@@ -62,6 +62,6 @@ test_bcm8544 hello world
 ```
 on the command line
 
-There is also a little script called update that fetches some more or less usefull stuff to put on your shiny new display.
+There is also a little script called update that fetches some more or less useful stuff to put on your shiny new display.
 
 Enjoy!
